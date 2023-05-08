@@ -1,55 +1,69 @@
-# osTicket - PREREQUISITES AND INSTALLATION
-osTicket - PREREQUISITES AND INSTALLATION
-<h1>osTicket - Prerequisites and Installation</h1>
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
+
+<h1>osTicket - PREREQUISITES AND INSTALLATION</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<h2>VIDEO DEMONSTRATION</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/dtlxydNtjOE)
 
-<h2>Environments and Technologies Used</h2>
+<h2>ENVIRONMENTS AND TECHNOLOGIEIS USED </h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>OPERATING SYSTEMS USED </h2>
 
-- Windows 10 Pro</b> 
+- Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>LIST OF PREREQUISITES (Part 1)</h2>
 
+- Create a  Resource Group in Azure portal
 - Create Windows 10 Virtual Machine with 2-4 virtual CPUs
-- Create a Resource Group in Azure portal
 
-<h2>Installation Steps</h2>
+<p>
+<img src="https://i.imgur.com/RCg40YI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/oyRs6pp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h2>INSTALLATION STEPS (Part 2)</h2>
+
 Install and enable IIS in Windows with CGI
-<p>
-<img src="![image](https://user-images.githubusercontent.com/105188024/230754303-daa081ba-a9d0-429a-956d-76d318eace09.png)"/>
- 
-</p>
-<p>
 
+<p>
+<img src="https://i.imgur.com/kgSVA2x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br />
+
 Install Rewrite Module
-<p> 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+<img src="https://i.imgur.com/CpFLFNU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 Install PHP Manager for IIS
-</p>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/o1YZ1Bs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 Install VC redistributable
-</p>
-<br />
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7qT4KHs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 Install MySQL
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>.
+<img src="https://i.imgur.com/uFWveYo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+
 <br />
